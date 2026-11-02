@@ -4,6 +4,31 @@ A local photo and media library with a neutral Photos-style interface, Aiko icon
 
 **Development preview, version 0.2.0.** See [FEATURE-STATUS.md](FEATURE-STATUS.md) for implemented features, verification, and remaining work. This project does not claim the complete behavior of Apple Photos, darktable, or PhotoPrism.
 
+<!-- run-steps:start -->
+## Run it locally, step by step
+
+1. **Install [Python](https://www.python.org/downloads/) 3.11** or newer and [Node.js](https://nodejs.org) 22 or newer.
+
+2. **Get the code:**
+
+   ```sh
+   git clone https://github.com/Gitguy268/liquidframe.git
+   cd liquidframe
+   ```
+
+3. **Set it up:**
+
+   ```sh
+   python3 scripts/setup.py
+   ```
+
+   On Windows use `py -3 scripts/setup.py`.
+
+4. **Start it** with `start.command` on macOS, `start.cmd` on Windows or `./start.sh` on Linux.
+
+5. **Open <http://127.0.0.1:4320/>** if it doesn't open by itself. Connect a folder of photos to begin.
+<!-- run-steps:end -->
+
 ## Start
 
 Open `start.command`. The app opens at **http://127.0.0.1:4320**. The old `openphoto` launcher redirects here.
