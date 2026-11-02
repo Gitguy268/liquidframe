@@ -4,6 +4,10 @@ A local photo and media library with a neutral Photos-style interface, Aiko icon
 
 **Development preview, version 0.2.0.** See [FEATURE-STATUS.md](FEATURE-STATUS.md) for implemented features, verification, and remaining work. This project does not claim the complete behavior of Apple Photos, darktable, or PhotoPrism.
 
+<!-- live-links -->
+**Project page:** [gitguy268.github.io/liquidframe](https://gitguy268.github.io/liquidframe/) · [liquidframe.vercel.app](https://liquidframe.vercel.app)
+<!-- /live-links -->
+
 <!-- run-steps:start -->
 ## Run it locally, step by step
 
