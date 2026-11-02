@@ -1,0 +1,170 @@
+{
+  "background": {
+    "label": "Background removal",
+    "license": "MIT",
+    "source": "https://github.com/ZhengPeng7/BiRefNet",
+    "files": [
+      {
+        "url": "https://huggingface.co/onnx-community/BiRefNet_lite-ONNX/resolve/de15b22ba131738a16dff04aab8bdf8dc32e3ac1/onnx/model.onnx",
+        "name": "onnx/model.onnx",
+        "sha256": "5600024376f572a557870a5eb0afb1e5961636bef4e1e22132025467d0f03333",
+        "size": 224005088
+      },
+      {
+        "url": "https://huggingface.co/onnx-community/BiRefNet_lite-ONNX/resolve/de15b22ba131738a16dff04aab8bdf8dc32e3ac1/preprocessor_config.json",
+        "name": "preprocessor_config.json",
+        "sha256": "447d9ccb2c4129ab0ca045fc293e7d79dbc45e293ac1e94818d865db77f65a54",
+        "size": 391
+      }
+    ]
+  },
+  "cleanup": {
+    "label": "Object cleanup",
+    "license": "Apache-2.0",
+    "source": "https://huggingface.co/Carve/LaMa-ONNX",
+    "files": [
+      {
+        "url": "https://huggingface.co/Carve/LaMa-ONNX/resolve/c3c0c9e468934d62e79c329e35d82dd09ff8c444/lama_fp32.onnx",
+        "name": "lama_fp32.onnx",
+        "sha256": "1faef5301d78db7dda502fe59966957ec4b79dd64e16f03ed96913c7a4eb68d6",
+        "size": 208044816
+      }
+    ]
+  },
+  "semantic": {
+    "label": "Semantic search",
+    "license": "MIT (upstream CLIP weights)",
+    "source": "https://github.com/openai/CLIP",
+    "files": [
+      {
+        "url": "https://huggingface.co/Xenova/clip-vit-base-patch32/resolve/d15189d7028b43f1d3e65039190477f6af591c2a/onnx/vision_model_quantized.onnx",
+        "name": "onnx/vision_model_quantized.onnx",
+        "sha256": "583fd1110a514667812fee7d684952aaf82a99b959760c8d7dca7e0ab9839299",
+        "size": 89117001
+      },
+      {
+        "url": "https://huggingface.co/Xenova/clip-vit-base-patch32/resolve/d15189d7028b43f1d3e65039190477f6af591c2a/onnx/text_model_quantized.onnx",
+        "name": "onnx/text_model_quantized.onnx",
+        "sha256": "73baab855d406190da9faa498cfedf65f15cf309f4cc7385b7b032e6d08e5c3a",
+        "size": 64504507
+      },
+      {
+        "url": "https://huggingface.co/Xenova/clip-vit-base-patch32/resolve/d15189d7028b43f1d3e65039190477f6af591c2a/vocab.json",
+        "name": "vocab.json",
+        "sha256": "5047b556ce86ccaf6aa22b3ffccfc52d391ea4accdab9c2f2407da5b742d4363",
+        "size": 862328
+      },
+      {
+        "url": "https://huggingface.co/Xenova/clip-vit-base-patch32/resolve/d15189d7028b43f1d3e65039190477f6af591c2a/merges.txt",
+        "name": "merges.txt",
+        "sha256": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+        "size": 524619
+      },
+      {
+        "url": "https://huggingface.co/Xenova/clip-vit-base-patch32/resolve/d15189d7028b43f1d3e65039190477f6af591c2a/tokenizer_config.json",
+        "name": "tokenizer_config.json",
+        "sha256": "60ba2912bc6344c94bc16bbdec27fa1209409167b6f2fdf3cfe9e65462ea3967",
+        "size": 775
+      },
+      {
+        "url": "https://huggingface.co/Xenova/clip-vit-base-patch32/resolve/d15189d7028b43f1d3e65039190477f6af591c2a/special_tokens_map.json",
+        "name": "special_tokens_map.json",
+        "sha256": "c4864a9376a8401918425bed71fc14fc0e81f9b59ec45c1cf96cccb2df508eac",
+        "size": 472
+      },
+      {
+        "url": "https://huggingface.co/Xenova/clip-vit-base-patch32/resolve/d15189d7028b43f1d3e65039190477f6af591c2a/preprocessor_config.json",
+        "name": "preprocessor_config.json",
+        "sha256": "6f638fb9401a6d6296feff533ee7efe657b787c49f954f82f5906b36ef2a1b1f",
+        "size": 520
+      },
+      {
+        "url": "https://huggingface.co/Xenova/clip-vit-base-patch32/resolve/d15189d7028b43f1d3e65039190477f6af591c2a/config.json",
+        "name": "config.json",
+        "sha256": "493ef57ff783e42d1530c91b53469b7fdf8db8a9c1408e86998fcb7899a4f495",
+        "size": 4524
+      }
+    ]
+  },
+  "people": {
+    "label": "People grouping",
+    "license": "YuNet MIT; SFace Apache-2.0",
+    "source": "https://github.com/opencv/opencv_zoo",
+    "files": [
+      {
+        "url": "https://media.githubusercontent.com/media/opencv/opencv_zoo/47534e27c9851bb1128ccc0102f1145e27f23f98/models/face_detection_yunet/face_detection_yunet_2023mar.onnx",
+        "name": "yunet.onnx",
+        "sha256": "8f2383e4dd3cfbb4553ea8718107fc0423210dc964f9f4280604804ed2552fa4",
+        "size": 232589
+      },
+      {
+        "url": "https://media.githubusercontent.com/media/opencv/opencv_zoo/47534e27c9851bb1128ccc0102f1145e27f23f98/models/face_recognition_sface/face_recognition_sface_2021dec.onnx",
+        "name": "sface.onnx",
+        "sha256": "0ba9fbfa01b5270c96627c4ef784da859931e02f04419c829e83484087c34e79",
+        "size": 38696353
+      }
+    ]
+  },
+  "enhance": {
+    "label": "Restore & upscale",
+    "license": "BSD-3-Clause",
+    "source": "https://github.com/xinntao/Real-ESRGAN",
+    "files": [
+      {
+        "url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-x4v3.pth",
+        "name": "realesr-general-x4v3.pth",
+        "sha256": "8dc7edb9ac80ccdc30c3a5dca6616509367f05fbc184ad95b731f05bece96292",
+        "size": 4885111
+      },
+      {
+        "url": "https://github.com/xinntao/Real-ESRGAN/releases/download/v0.2.5.0/realesr-general-wdn-x4v3.pth",
+        "name": "realesr-general-wdn-x4v3.pth",
+        "sha256": "1641f8c4464b9f097c9fdda5589273713f67cf59f3d909e0bd688f0cee269dca",
+        "size": 4885111
+      }
+    ]
+  },
+  "pets": {
+    "label": "Pets & object suggestions",
+    "license": "Apache-2.0",
+    "source": "https://github.com/facebookresearch/detr; https://github.com/facebookresearch/dinov2",
+    "files": [
+      {
+        "url": "https://huggingface.co/Xenova/detr-resnet-50/resolve/8be7ab59ff663484ee9ba2e8d8f267330d5ad03e/onnx/model_quantized.onnx",
+        "name": "detector/model.onnx",
+        "sha256": "cae09a307ed9247da7e2ce8bcf81522a6817f1ea2e82b9c4dde59f5964b62b4f",
+        "size": 43102531
+      },
+      {
+        "url": "https://huggingface.co/Xenova/detr-resnet-50/resolve/8be7ab59ff663484ee9ba2e8d8f267330d5ad03e/config.json",
+        "name": "detector/config.json",
+        "sha256": "2daaf8af0b4fe9d075fd728a6967b89a1084849d1b25de26338f97cd6ef41466",
+        "size": 4812
+      },
+      {
+        "url": "https://huggingface.co/Xenova/detr-resnet-50/resolve/8be7ab59ff663484ee9ba2e8d8f267330d5ad03e/preprocessor_config.json",
+        "name": "detector/preprocessor_config.json",
+        "sha256": "fd7b4c38d03d99e37f75eebba889e064db89fed8fd451139442d010a11f2dc5e",
+        "size": 455
+      },
+      {
+        "url": "https://huggingface.co/Xenova/dinov2-small/resolve/c2bb04a51fab207c420665f1946016107bffc701/onnx/model_quantized.onnx",
+        "name": "embedding/model.onnx",
+        "sha256": "3afdc8bc63b50558d6e5770f5b799bb82455c2311183a2de43803f343a29d917",
+        "size": 24451943
+      },
+      {
+        "url": "https://huggingface.co/Xenova/dinov2-small/resolve/c2bb04a51fab207c420665f1946016107bffc701/config.json",
+        "name": "embedding/config.json",
+        "sha256": "471007e1c59df520030a2690998f4e0ba5d810bc4f959d1984f630d198faa07e",
+        "size": 899
+      },
+      {
+        "url": "https://huggingface.co/Xenova/dinov2-small/resolve/c2bb04a51fab207c420665f1946016107bffc701/preprocessor_config.json",
+        "name": "embedding/preprocessor_config.json",
+        "sha256": "14e780d86fa1861f8751f868d7f45425b5feb55c38ca26f152ca5097ab30f828",
+        "size": 436
+      }
+    ]
+  }
+}

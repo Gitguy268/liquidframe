@@ -1,0 +1,4 @@
+Aiko — tw93/aiko
+Upstream README declares MIT License.
+Source revision: 6ae2c093d5bed31096354b72806374ab0848a2db
+https://github.com/tw93/aiko

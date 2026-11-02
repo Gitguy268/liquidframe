@@ -1,0 +1,242 @@
+[
+  {
+    "name": "@mapbox/jsonlint-lines-primitives",
+    "version": "2.0.3",
+    "license": "MIT",
+    "notices": [
+      "_mapbox_jsonlint-lines-primitives-2.0.3-LICENSE"
+    ]
+  },
+  {
+    "name": "@mapbox/point-geometry",
+    "version": "1.1.0",
+    "license": "ISC",
+    "notices": [
+      "_mapbox_point-geometry-1.1.0-LICENSE"
+    ]
+  },
+  {
+    "name": "@mapbox/tiny-sdf",
+    "version": "2.3.0",
+    "license": "BSD-2-Clause",
+    "notices": [
+      "_mapbox_tiny-sdf-2.3.0-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "@mapbox/unitbezier",
+    "version": "1.0.0",
+    "license": "BSD-2-Clause",
+    "notices": [
+      "_mapbox_unitbezier-1.0.0-LICENSE"
+    ]
+  },
+  {
+    "name": "@mapbox/vector-tile",
+    "version": "3.0.0",
+    "license": "BSD-3-Clause",
+    "notices": [
+      "_mapbox_vector-tile-3.0.0-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "@maplibre/geojson-vt",
+    "version": "6.2.0",
+    "license": "ISC",
+    "notices": [
+      "_maplibre_geojson-vt-6.2.0-LICENSE"
+    ]
+  },
+  {
+    "name": "@maplibre/maplibre-gl-style-spec",
+    "version": "26.4.4",
+    "license": "ISC",
+    "notices": [
+      "_maplibre_maplibre-gl-style-spec-26.4.4-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "@maplibre/mlt",
+    "version": "1.3.0",
+    "license": "(MIT OR Apache-2.0)",
+    "notices": [
+      "_maplibre_mlt-1.3.0-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "@maplibre/vt-pbf",
+    "version": "4.3.2",
+    "license": "MIT",
+    "notices": [
+      "_maplibre_vt-pbf-4.3.2-LICENSE"
+    ]
+  },
+  {
+    "name": "@tanstack/react-virtual",
+    "version": "3.14.19",
+    "license": "MIT",
+    "notices": [
+      "_tanstack_react-virtual-3.14.19-LICENSE"
+    ]
+  },
+  {
+    "name": "@tanstack/virtual-core",
+    "version": "3.19.4",
+    "license": "MIT",
+    "notices": [
+      "_tanstack_virtual-core-3.19.4-LICENSE"
+    ]
+  },
+  {
+    "name": "@types/geojson",
+    "version": "7946.0.16",
+    "license": "MIT",
+    "notices": [
+      "_types_geojson-7946.0.16-LICENSE"
+    ]
+  },
+  {
+    "name": "bidi-js",
+    "version": "1.1.0",
+    "license": "MIT",
+    "notices": [
+      "bidi-js-1.1.0-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "earcut",
+    "version": "3.2.4",
+    "license": "ISC",
+    "notices": [
+      "earcut-3.2.4-LICENSE"
+    ]
+  },
+  {
+    "name": "gl-matrix",
+    "version": "3.4.4",
+    "license": "MIT",
+    "notices": [
+      "gl-matrix-3.4.4-LICENSE.md"
+    ]
+  },
+  {
+    "name": "json-stringify-pretty-compact",
+    "version": "4.0.0",
+    "license": "MIT",
+    "notices": [
+      "json-stringify-pretty-compact-4.0.0-LICENSE"
+    ]
+  },
+  {
+    "name": "kdbush",
+    "version": "4.1.0",
+    "license": "ISC",
+    "notices": [
+      "kdbush-4.1.0-LICENSE"
+    ]
+  },
+  {
+    "name": "maplibre-gl",
+    "version": "6.14.0",
+    "license": "BSD-3-Clause",
+    "notices": [
+      "maplibre-gl-6.14.0-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "minimist",
+    "version": "1.2.8",
+    "license": "MIT",
+    "notices": [
+      "minimist-1.2.8-LICENSE"
+    ]
+  },
+  {
+    "name": "murmurhash-js",
+    "version": "1.0.0",
+    "license": "MIT",
+    "notices": [
+      "murmurhash-js-1.0.0-README-license.txt"
+    ]
+  },
+  {
+    "name": "pbf",
+    "version": "5.1.2",
+    "license": "BSD-3-Clause",
+    "notices": [
+      "pbf-5.1.2-LICENSE"
+    ]
+  },
+  {
+    "name": "potpack",
+    "version": "2.1.0",
+    "license": "ISC",
+    "notices": [
+      "potpack-2.1.0-LICENSE"
+    ]
+  },
+  {
+    "name": "protocol-buffers-schema",
+    "version": "3.6.1",
+    "license": "MIT",
+    "notices": [
+      "protocol-buffers-schema-3.6.1-LICENSE"
+    ]
+  },
+  {
+    "name": "quickselect",
+    "version": "3.0.0",
+    "license": "ISC",
+    "notices": [
+      "quickselect-3.0.0-LICENSE"
+    ]
+  },
+  {
+    "name": "react",
+    "version": "19.3.1",
+    "license": "MIT",
+    "notices": [
+      "react-19.3.1-LICENSE"
+    ]
+  },
+  {
+    "name": "react-dom",
+    "version": "19.3.1",
+    "license": "MIT",
+    "notices": [
+      "react-dom-19.3.1-LICENSE"
+    ]
+  },
+  {
+    "name": "require-from-string",
+    "version": "2.0.2",
+    "license": "MIT",
+    "notices": [
+      "require-from-string-2.0.2-license"
+    ]
+  },
+  {
+    "name": "resolve-protobuf-schema",
+    "version": "2.1.0",
+    "license": "MIT",
+    "notices": [
+      "resolve-protobuf-schema-2.1.0-LICENSE"
+    ]
+  },
+  {
+    "name": "scheduler",
+    "version": "0.28.0",
+    "license": "MIT",
+    "notices": [
+      "scheduler-0.28.0-LICENSE"
+    ]
+  },
+  {
+    "name": "tinyqueue",
+    "version": "3.0.0",
+    "license": "ISC",
+    "notices": [
+      "tinyqueue-3.0.0-LICENSE"
+    ]
+  }
+]

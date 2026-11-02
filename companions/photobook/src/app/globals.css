@@ -1,0 +1,43 @@
+/* Modified for the local LiquidFrame companion on 2026-10-17. See LIQUIDFRAME.md. */
+:root { --font-manrope: "Avenir Next", "Segoe UI", sans-serif; --font-nunito: "Avenir Next", "Segoe UI", sans-serif; --font-sora: "Avenir Next", "Segoe UI", sans-serif; }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #F5F5F7;
+  font-family: var(--font-manrope), sans-serif;
+  color: #1a1c1d;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: #08C225;
+  color: white;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c8c8cc;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a0a0a4;
+}

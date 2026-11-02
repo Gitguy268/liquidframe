@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "liquidframe"
+version = "0.2.0"
+description = "Your photos. Your computer. A local photo library and editor."
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = [
+  "fastapi>=0.115,<1", "uvicorn>=0.30,<1", "pydantic>=2,<3",
+  "pyvips[binary]>=3,<4", "rawpy>=0.25,<1", "numpy>=2,<3",
+  "pillow>=11,<13", "opencv-python-headless>=4.11,<5",
+  "onnxruntime>=1.20,<2", "httpx>=0.28,<1", "watchdog>=6,<7",
+  "scipy>=1.14,<2", "python-multipart>=0.0.20",
+  "transformers>=4.48,<5", "torch>=2.6,<3", "ftfy>=6,<7", "argon2-cffi>=23,<26", "reportlab>=4,<5",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8", "pytest-asyncio>=0.25"]
+
+[tool.setuptools.packages.find]
+where = ["backend"]
+
+[tool.pytest.ini_options]
+pythonpath = ["backend"]
+testpaths = ["tests"]
+
+[tool.setuptools.package-data]
+openphoto = ["models.json"]

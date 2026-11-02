@@ -1,0 +1,10 @@
+{
+  "background_seconds": 9.563978584017605,
+  "cleanup_seconds": 4.896133540896699,
+  "enhance_seconds": 1.0813405839726329,
+  "semantic_seconds": 2.0114540409995243,
+  "clip_similarity": 0.2523212134838104,
+  "faces": 1,
+  "people_seconds": 0.05555279192049056,
+  "cached_models_offline": true
+}
