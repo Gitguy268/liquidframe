@@ -18,7 +18,7 @@ SESSIONS={}
 
 def registry():
     from . import store
-    f=store.PROJECT/'.liquidframe-libraries.json'
+    f=store.STATE/'.liquidframe-libraries.json'
     if not f.exists():return [{'id':'default','name':'My Library','directory':str(store.DATA)}]
     return json.loads(f.read_text())
 
@@ -46,7 +46,7 @@ def add(name,path):
         entry={'id':secrets.token_hex(16),'name':name[:150] or root.name,'directory':str(target)}
         target.mkdir(exist_ok=True)
         with using(LibraryContext(entry['id'],target,entry['name'])):store.init()
-        entries.append(entry);f=store.PROJECT/'.liquidframe-libraries.json';temp=f.with_suffix('.tmp');temp.write_text(json.dumps(entries));os.replace(temp,f)
+        entries.append(entry);f=store.STATE/'.liquidframe-libraries.json';temp=f.with_suffix('.tmp');temp.write_text(json.dumps(entries));os.replace(temp,f)
     from . import library
     library.refresh_watch()
     return entry
