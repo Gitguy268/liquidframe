@@ -2,7 +2,7 @@
 import { spawnSync } from 'node:child_process';
 import { readFileSync, writeFileSync, existsSync, readdirSync, statSync } from 'node:fs';
 import { createHash } from 'node:crypto';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 import path from 'node:path';
 const root = fileURLToPath(new URL('../companions/photobook/', import.meta.url));
 const npm = process.platform === 'win32' ? 'npm.cmd' : 'npm';
@@ -15,7 +15,7 @@ const hashes = new Set();
 function scan(folder) { for (const entry of readdirSync(folder)) { const file=path.join(folder,entry); if(statSync(file).isDirectory()) scan(file); else if(file.endsWith('.html')) { for(const match of readFileSync(file,'utf8').matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/g)) { if(!/\bsrc=/.test(match[1])) hashes.add(createHash('sha256').update(match[2]).digest('base64')); } } } }
 scan(path.join(root,'out'));
 writeFileSync(path.join(root,'out','csp.json'),JSON.stringify([...hashes]));
-const {default:JSZip} = await import(path.join(root,'node_modules/jszip/lib/index.js'));
+const {default:JSZip} = await import(pathToFileURL(path.join(root,'node_modules/jszip/lib/index.js')).href);
 const zip = new JSZip();
 const ignored = new Set(['node_modules','.next','out','.git','next-env.d.ts']);
 function source(folder, prefix='') { for (const entry of readdirSync(folder)) { if(ignored.has(entry) || entry.endsWith('.tsbuildinfo')) continue; const file=path.join(folder,entry), relative=prefix+entry; if(statSync(file).isDirectory()) source(file,relative+'/'); else zip.file('photobook/'+relative,readFileSync(file)); } }
