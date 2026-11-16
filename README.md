@@ -8,6 +8,16 @@ A local photo and media library with a neutral Photos-style interface, Aiko icon
 **Project page:** [gitguy268.github.io/liquidframe](https://gitguy268.github.io/liquidframe/) · [liquidframe.vercel.app](https://liquidframe.vercel.app)
 <!-- /live-links -->
 
+## Install with Homebrew
+
+```sh
+brew trust gitguy268/tap
+brew install gitguy268/tap/liquidframe
+liquidframe          # opens http://127.0.0.1:4320/
+```
+
+The install downloads the Python and npm packages it needs (about 1 GB, PyTorch included). Your library is kept in `~/Library/Application Support/LiquidFrame` on macOS and `~/.local/share/liquidframe` on Linux, so upgrades don't touch it. `LIQUIDFRAME_STATE` and `LIQUIDFRAME_DATA` change those folders.
+
 <!-- run-steps:start -->
 ## Run it locally, step by step
 
