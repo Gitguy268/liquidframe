@@ -8,6 +8,9 @@ DATA = Path(os.getenv('LIQUIDFRAME_DATA',os.getenv('OPENPHOTO_DATA',str(PROJECT 
 # Preserve an explicitly configured legacy default after the project-directory rename.
 if DATA==PROJECT.parent/'openphoto'/'.openphoto-data' and not DATA.exists() and (PROJECT/'.openphoto-data').exists():
     DATA=PROJECT/'.openphoto-data'
+# Where the list of extra libraries is kept. Installs that replace the app folder on upgrade
+# (Homebrew) point this outside it.
+STATE = Path(os.getenv('LIQUIDFRAME_STATE',str(PROJECT))).resolve()
 
 def data():
     from .workspaces import CURRENT
